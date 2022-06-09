@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<script type="login.js"></script>
+</head>
+<body>
+
+<div>
+<form action="LoginServlet" method="post" onsubmit="return validateForm()">
+<table cellspacing=30 class=a>
+<tr>
+	<td>Username<font color=red>*</font></td>
+	<td>:</td>
+	<td><input type="text" name="uname" placeholder="Enter your Username" size="25" class=ib required></td>
+</tr>
+<tr>
+	<td>Password<font color=red>*</font></td>
+	<td>:</td>
+	<td><input type="password" name="passw" placeholder="Enter your Password" size="25" class=ib required></td>
+</tr>
+<tr class=b>
+	<td colspan="2"><a href="register.html" target="Description">New User! Register?</a></td>
+	<td align="right"><a href="resetpassword.html" target="Description">Forgot Password?Reset It</a></td>
+</tr>
+<tr>
+	<td align="left"><input type="reset" class=a></td>
+	<td></td>
+	<td align="right"><input type="submit" value="Log in" class=a></td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>

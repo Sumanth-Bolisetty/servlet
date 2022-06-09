@@ -1,0 +1,33 @@
+body
+{
+	background-color:lightyellow;
+}
+.a
+{
+	font-family:Times New Roman;
+	font-size:25px;
+}
+.b
+{
+	font-family:Times New Roman;
+	font-size:20px;
+}
+.ib
+{
+	background-color:#E5E4E2;
+	font-family:Times New Roman;
+	font-size:20px;
+}
+div
+{
+	width:600px;
+	margin:auto;
+	outline-width:1px;
+	outline-color:blue;
+	outline-style:groove;
+	background-color:#FFFDD0;
+}
+table
+{
+	margin:auto;
+}
